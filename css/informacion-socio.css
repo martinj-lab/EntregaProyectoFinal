@@ -1,0 +1,81 @@
+#logo {
+    width: 150px;
+    height: 150px;
+}
+
+#boton-buscar {
+    border-color: #f83f3f;
+    color: #f83f3f;
+}
+
+#boton-buscar:hover {
+    background-color: #f83f3f;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+#titulo {
+    color: black;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #e1e1e1;
+    text-align: center;
+    margin: 0 0 0;
+    padding: 90px 0 39px;
+    color: grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 20px;
+}
+
+span {
+    color: white;
+    padding-left:30px;
+}
+
+p {
+    color: grey;
+}
+
+span {
+    color: white;
+    padding-left:30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#socio {
+    background-color: #ed1b2e;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+    margin-left: 30%;
+}
+
+#boton {
+    text-decoration: none;
+    color: white;
+}
+
+#socio:hover {
+    background-color: #f15c5c;
+}
