@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+        <title>Formulario de solicitud</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    </head>
+    <body class="cuerpo">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <img src="multimedia/river.png" alt="Logo" class="d-inline-block align-text-top" id="logo">
+                  <h1><a class="navbar-brand" href="index.html">
+                    Sitio oficial
+                    CLUB ATLETICO
+                    RIVER PLATE
+                  </a></h1>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Principal</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Polideportivo
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="https://www.cariverplate.com.ar/voley">Voley</a></li>
+                          <li><a class="dropdown-item" href="https://www.cariverplate.com.ar/basquet">Basquet</a></li>
+                          <li><a class="dropdown-item" href="https://www.cariverplate.com.ar/handball">Handball</a></li>
+                          <li><a class="dropdown-item" href="https://www.cariverplate.com.ar/tenis">Tenis</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.cariverplate.com.ar/futuro-monumental/">Entradas</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Qué estas buscando?" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit" id="boton-buscar">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+            </nav>
+        </header>
+      <br />
+      <br />
+        <form>
+            <fieldset class="formulario">
+                <h2 class="solicitud"> Solicitud de socio</h2>
+                <p class="parrafito">Para formar parte del Más Grande, necesitamos validar tu identidad. Por favor, completá los siguientes datos:</p>
+                <div>
+                    <label for="nombre">Nombre</label> 
+                    <br/>
+                    <input type="text" id="nombre"/>
+                </div>
+                <br/>
+                <div id="divape">
+                    <label for="apellido">Apellido</label>
+                    <br/>
+                    <input  type="text" id="apellido"/>
+                </div>
+                <br/>
+                <div id="divcor"><label for="correo">Correo</label>
+                    <br />
+                    <input type="email" id="correo">
+                </div>
+                <br />
+                <br />
+                <div>
+                    <label for="opciones">Nacionalidad y número de DNI </label>
+                    <br/>
+                    <select name="opciones" id="telefonos">
+                        <option value="ar">Argentina</option>
+                        <option value="ge">Alemania</option>
+                        <option value="au">Austria</option>
+                        <option value="bg">Belgica</option>
+                        <option value="bo">Bolivia</option>
+                        <option value="br">Brasil</option>
+                        <option value="ec">Ecuador</option>
+                        <option value="fr">Francia</option>
+                        <option value="gr">Grecia</option>
+                        <option value="ne">Holanda</option>
+                        <option value="it">Italia</option>
+                        <option value="jp">Japon</option>
+                        <option value="me">Mexico</option>
+                        <option value="nz">Nueva Zelanda</option>
+                        <option value="py">Paraguay</option>
+                        <option value="pe">Peru</option>
+                        <option value="po">Portugal</option>
+                        <option value="sw">Suiza</option>
+                        <option value="tu">Turquia</option>
+                        <option value="ur">Uruguay</option>
+                    </select>
+                    <input id="numeros" type="text"/>
+                    <br/>
+                    <br/>
+                </div>
+                <p>Nunca recibirás spam ni haremos nada 'raro' con tus datos, respetamos la privacidad al 100%</b>. Conoce nuestra <a class="link" href="https://policies.google.com/privacy">política de privacidad</a></p>
+                <br/>
+                <input type="checkbox" id="1"/>
+                <label for="1">Mediante el envío de mis datos confirmo que he leído los términos y condiciones de usuario</label>
+                <br/>
+                <br/>
+                <input type="checkbox" id="2"/>
+                <label for="2">Quiero recibir el newsletter oficial.</label>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <button class="btn btn-outline-success" id="botonEnviar" type="submit">ENVIAR SOLICITUD</button>
+             </fieldset>    
+         </form>
+         <br />
+         <br />
+         <footer>
+            <ul id="lista2">
+                <li><a class="link" href="https://www.facebook.com/riverplateoficial" target="_blank">Facebook</a><span>| </span></li>
+                <li><a class="link" href="https://twitter.com/RiverPlate" target="_blank">Twitter</a><span>| </span></li>
+                <li><a class="link" href="https://www.instagram.com/riverplate/" target="_blank">Instagram</a><span>| </span></li>
+                <li><a class="link" href="https://www.youtube.com/user/cariverplatetv" target="_blank">YouTube</a><span>| </span></li></li>
+                <li><a class="link" href="https://www.tiktok.com/@riverplate?lang=es" target="_blank">Tiktok</a></li>
+            </ul>
+            <p>Club Atlético River Plate, Asoc. Civil © 2023 Todos los derechos reservados. Av. Figueroa Alcorta 7597 (C1424BCL) CABA, Buenos Aires, Argentina. Contacto: Informes: (54 11) 5238-2505 •</p>
+            <p><a class="link" href="mailto:club@cariverplate.com.ar">club@cariverplate.com.ar</a></p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    </body>
+</html>

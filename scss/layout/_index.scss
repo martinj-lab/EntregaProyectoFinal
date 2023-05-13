@@ -1,0 +1,23 @@
+body {
+    background-image: $bg-bi;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.card {
+    height: 100%;
+    margin-left: 10px;
+}
+
+.col-md-3 {
+    background-color: #f83f3f;
+    margin-top: 5%;
+    height: 200px;
+    font-size: 20px;
+    #titulo {
+        padding-top: 28%;
+    }
+}

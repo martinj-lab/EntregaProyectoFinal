@@ -1,0 +1,85 @@
+.cuerpo {
+    background-image: url("https://statics.eleconomista.com.ar/2023/04/crop/6445e1e5ba147__1360x740.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+form {
+    display: flex;
+    .formulario {
+    background-color:  #de3f3f ;
+    width: 35%;
+    height: 50%;
+    margin-left: 30%;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    }
+    
+}
+
+.parrafito {
+    margin-bottom: 20px;
+}
+
+div {
+    display: block;
+}
+
+select {
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+#nombre {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #d0d3d4 ;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+#apellido {
+    border: 1px solid #d0d3d4 ;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+#correo {
+    border: 1px solid #d0d3d4 ;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+#numeros {
+    max-width: 100%;
+    border: 1px solid #d0d3d4 ;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+#divnom{
+    display: grid;
+}
+
+#divape{
+    display: grid;
+}
+
+
+#divcor {
+    display: grid;
+}
+
+#botonEnviar {
+    align-self: center;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 25%;
+}

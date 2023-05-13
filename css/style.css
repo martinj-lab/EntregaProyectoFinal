@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#logo {
+  width: 150px;
+  height: 150px;
+}
+
+#boton-buscar {
+  border-color: #f83f3f;
+  color: #f83f3f;
+}
+
+#boton-buscar:hover {
+  background-color: #f83f3f;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #e1e1e1;
+  text-align: center;
+  margin: 0 0 0;
+  padding: 90px 0 39px;
+  color: grey;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+span {
+  color: white;
+  padding-left: 30px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(45deg, #131212, rgb(198, 39, 39));
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.card {
+  height: 100%;
+  margin-left: 10px;
+}
+
+.col-md-3 {
+  background-color: #f83f3f;
+  margin-top: 5%;
+  height: 200px;
+  font-size: 20px;
+}
+.col-md-3 #titulo {
+  padding-top: 28%;
+}
+
+#carouselExampleCaptions {
+  width: 20%;
+  margin-left: 40%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+.armani {
+  color: white;
+}
+
+#nombres {
+  color: black;
+}
+
+p {
+  color: grey;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+#socio {
+  background-color: #ed1b2e;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  border-radius: 30px;
+  margin-left: 30%;
+}
+#socio #boton {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  color: black;
+}
+
+#columna {
+  height: auto;
+}
+
+.cuerpo {
+  background-image: url("https://statics.eleconomista.com.ar/2023/04/crop/6445e1e5ba147__1360x740.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+form {
+  display: flex;
+}
+form .formulario {
+  background-color: #de3f3f;
+  width: 35%;
+  height: 50%;
+  margin-left: 30%;
+  padding: 30px;
+  border: none;
+  border-radius: 20px;
+}
+
+.parrafito {
+  margin-bottom: 20px;
+}
+
+div {
+  display: block;
+}
+
+select {
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+#nombre {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #d0d3d4;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+#apellido {
+  border: 1px solid #d0d3d4;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+#correo {
+  border: 1px solid #d0d3d4;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+#numeros {
+  max-width: 100%;
+  border: 1px solid #d0d3d4;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+#divnom {
+  display: grid;
+}
+
+#divape {
+  display: grid;
+}
+
+#divcor {
+  display: grid;
+}
+
+#botonEnviar {
+  align-self: center;
+  background-color: black;
+  color: white;
+  border: none;
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 25%;
+}
+
+/*# sourceMappingURL=style.css.map */

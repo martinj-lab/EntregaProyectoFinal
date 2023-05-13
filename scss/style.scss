@@ -1,0 +1,17 @@
+// BASE
+
+@import 'base/reset';
+@import 'base/vars';
+
+// COMPONENTS
+
+@import 'components/navbar';
+@import 'components/footer';
+
+
+// LAYOUTS
+@import 'layout/index';
+@import 'layout/profesionales';
+@import 'layout/informacion-socio';
+@import 'layout/derecho-info';
+@import 'layout/hacete-socio';
