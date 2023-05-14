@@ -115,11 +115,12 @@ p {
 }
 
 p {
-  color: black;
+  color: white;
 }
 
 #columna {
   height: auto;
+  background-image: linear-gradient(45deg, #131212, rgb(198, 39, 39));
 }
 
 .cuerpo {
